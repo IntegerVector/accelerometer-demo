@@ -28,3 +28,6 @@ $ openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout ./selfsigned.key -
 ```
 
 It should solve most of the problems.
+
+> To try this demo live go to:
+> [accelerometer-demo](https://integervector.github.io/accelerometer-demo/)
