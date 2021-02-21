@@ -1,0 +1,24 @@
+{
+  "name": "accelerometer-demo",
+  "version": "1.0.0",
+  "description": "Application for demonstrating accelerometer API",
+  "main": "webpack.config.js",
+  "scripts": {
+    "watch": "webpack --watch --mode production",
+    "watch:dev": "webpack --watch --mode development",
+    "build": "webpack build --mode production",
+    "build:dev": "webpack build --mode development",
+    "server": "node ./server.js"
+  },
+  "author": "Andrew Ryban",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.23.0",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "rxjs": "^6.6.3"
+  }
+}
